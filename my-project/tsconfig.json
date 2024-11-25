@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": false,
+    "jsx": "react-jsx",
+    "outDir": "./build",
+    "rootDir": "./lib",
+    "removeComments": true,
+    "noEmit": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+},
+"exclude": [
+    "node_modules"
+],
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
